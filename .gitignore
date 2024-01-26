@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/board_toy_project_front/node_modules
 /.pnp
 .pnp.js
 
