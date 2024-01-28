@@ -4,12 +4,14 @@ import { Routes, Route } from 'react-router';
 import RootLayout from './component/Root/Layout/RootLayout';
 import { reset } from './style/reset';
 import Home from './pages/Home/Home';
+import { Global } from '@emotion/react';
 
 
 function App() {
 
   return (
-    <RootLayout styles={reset}> 
+    <RootLayout> 
+    <Global styles={reset}/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route/>

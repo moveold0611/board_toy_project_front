@@ -1,10 +1,10 @@
 import { css } from '@emotion/react';
 
 export const SLayout = css`
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    width: 70%;
     min-height: 100%;
+    height: 70%;
+    border-radius: 5px;
 `;

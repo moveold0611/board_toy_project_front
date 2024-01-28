@@ -1,11 +1,16 @@
 import React from 'react';
 import RootContainer from '../../component/Root/Container/RootContainer'
+import * as S from './Style';
+import { css } from '@emotion/react';
+/** @jsxImportSource @emotion/react */
 
 function Home(props) {
 
     return (
-        <RootContainer>
-            홈 테스트
+        <RootContainer >
+            <div css={S.SLayout}>
+                Home Test
+            </div>
         </RootContainer>
     );
 }

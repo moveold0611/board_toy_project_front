@@ -5,7 +5,7 @@ import * as S from './Style';
 
 function RootContainer({children}) {
     return (
-        <div css={S.SContainer}>
+        <div css={S.SLayout}>
             {children}
         </div>
     );

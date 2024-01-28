@@ -1,12 +1,9 @@
 import { css } from '@emotion/react';
 
-export const SContainer = css`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+export const SLayout = css`
+    padding: 10px 10px 10px 10px;
     width: 70%;
-    min-height: 100%;
-    height: 70%;
-    border-radius: 5px;
+    min-height: 800px;
+    border-radius: 10px;
     border: 5px solid black;
 `;
