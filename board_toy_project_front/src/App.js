@@ -3,9 +3,10 @@ import './App.css';
 import { Routes, Route } from 'react-router';
 import RootLayout from './component/Root/Layout/RootLayout';
 import { reset } from './style/reset';
-import Home from './pages/Home/Home';
 import { Global } from '@emotion/react';
 
+import Home from './pages/Home/Home';
+import Signin from './pages/Signin/Signin';
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
     <Global styles={reset}/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route/>
+        <Route path='/login' element={<Signin/>}/>
         <Route/>
         <Route/>
       </Routes>

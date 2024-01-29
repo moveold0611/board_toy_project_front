@@ -8,6 +8,7 @@ export const SLayout = css`
     padding: 5px;
     border-radius: 8px;
     margin-bottom: 30px;
+    margin-top: 20px;
     border: 5px solid black;
     width: 90%;
     height: 30%;
@@ -24,7 +25,6 @@ export const SButtonContainer = css`
         color: black;
         
     }
-    
 `;
 
 
