@@ -9,15 +9,15 @@ function Signin(props) {
 
 
     const handleGoogleLogin = () => {
-        // window.location.href = "http://43.202.36.28/oauth2/authorization/google"
+
     }
 
     const handleKakaoLogin = () => {
-        // window.location.href = "http://43.202.36.28/oauth2/authorization/kakao"
+
     }
 
     const handleNaverLogin = () => {
-        // window.location.href = "http://43.202.36.28/oauth2/authorization/naver"
+        window.location.href = "http://localhost:8080/oauth2/authorization/naver"
     }
 
 
@@ -44,7 +44,7 @@ function Signin(props) {
                             <img alt="네이버 로그인" />
                             네이버로 시작하기
                         </button>
-                    </div>s
+                    </div>
             </div>
         </RootContainer>
     );

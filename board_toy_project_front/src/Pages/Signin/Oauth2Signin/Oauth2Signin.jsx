@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useQueryClient } from 'react-query';
 import { useSearchParams, Navigate, useNavigate } from 'react-router-dom';
 
@@ -20,4 +20,4 @@ function Oauth2Signin(props) {
     return <Navigate to={"/"}/>
 }
 
-export default Oauth2Signin;
+export default Oauth2Signin;<s></s>

@@ -7,6 +7,7 @@ import { Global } from '@emotion/react';
 
 import Home from './pages/Home/Home';
 import Signin from './pages/Signin/Signin';
+import Oauth2Signin from './pages/Signin/Oauth2Signin/Oauth2Signin';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Signin/>}/>
+        <Route path="/auth/oauth2/signin" element={ <Oauth2Signin /> } />
         <Route/>
         <Route/>
       </Routes>
